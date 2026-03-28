@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Theo Ratliff Activity Center | Demopolis, AL</title>
+    <meta name="description"
+        content="A community facility providing social, educational, and recreational support for the youth, adults, and families of Demopolis.">
+    <!-- Google Fonts for Playful Typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Nunito:wght@400;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">Theo Ratliff Activity Center</a>
+            <button class="mobile-menu-btn" aria-label="Toggle menu">
+                <span class="hamburger"></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#programs">Programs</a></li>
+                <li><a href="#contact" class="btn btn-primary">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero" id="home">
+        <video autoplay loop muted playsinline class="hero-video">
+            <source src="./Theo Ratliff.mp4" type="video/mp4">
+        </video>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title animate-up">Empowering the <span>Demopolis</span> Community</h1>
+            <p class="hero-subtitle animate-up delay-1">Social, educational, and recreational support for youth, adults,
+                and families.</p>
+            <a href="#programs" class="btn btn-large animate-up delay-2">Explore Programs</a>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section class="about section" id="about">
+        <div class="container grid-2">
+            <div class="about-text fade-in">
+                <h2 class="section-title">Our Mission</h2>
+                <p>Founded by NBA veteran and Demopolis native Theo Ratliff, our 21,685-square-foot facility serves as
+                    the heart of the community. In partnership with Demopolis Parks & Recreation and Demopolis City
+                    Schools, we aim to provide a safe, enriching environment for everyone.</p>
+                <div class="stats-grid">
+                    <div class="stat-card glass">
+                        <h3>21k+</h3>
+                        <p>Sq Ft Facility</p>
+                    </div>
+                    <div class="stat-card glass">
+                        <h3>All Ages</h3>
+                        <p>Programs</p>
+                    </div>
+                </div>
+            </div>
+            <div class="about-image fade-in delay-1">
+                <img src="./our_mission.png" alt="Our Mission at the Center" loading="lazy">
+            </div>
+        </div>
+    </section>
+
+    <!-- Programs Section -->
+    <section class="programs section bg-light" id="programs">
+        <div class="container">
+            <h2 class="section-title text-center fade-in">Programs & Services</h2>
+            <div class="grid-3 programs-grid">
+
+                <div class="program-card glass fade-in">
+                    <div class="card-image">
+                        <img src="./education_program.png" alt="Educational Support" loading="lazy">
+                    </div>
+                    <div class="card-content">
+                        <h3>Educational Support</h3>
+                        <p>After-school tutoring and homework help to ensure our youth succeed academically.</p>
+                    </div>
+                </div>
+
+                <div class="program-card glass fade-in delay-1">
+                    <div class="card-image">
+                        <img src="./sports_recreation.png" alt="Recreation & Exercise" loading="lazy">
+                    </div>
+                    <div class="card-content">
+                        <h3>Recreation & Exercise</h3>
+                        <p>Youth and adult basketball, fitness classes, and open gym time to promote healthy lifestyles.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="program-card glass fade-in delay-2">
+                    <div class="card-image">
+                        <img src="./community_events.png" alt="Community Events" loading="lazy">
+                    </div>
+                    <div class="card-content">
+                        <h3>Community Events</h3>
+                        <p>Health fairs, educational workshops, and community gatherings designed for all.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact section" id="contact">
+        <div class="container">
+            <div class="contact-card glass fade-in">
+                <h2 class="section-title text-center">Get in Touch</h2>
+                <div class="contact-info">
+                    <div class="info-item">
+                        <strong>Address:</strong><br>
+                        306 1st Avenue, Demopolis, AL
+                    </div>
+                    <div class="info-item">
+                        <strong>Phone:</strong><br>
+                        <a href="tel:+13342892200">(334) 289-2200</a>
+                    </div>
+                    <div class="info-item">
+                        <strong>Email:</strong><br>
+                        <a href="mailto:ratliffcenter@westal.net">ratliffcenter@westal.net</a>
+                    </div>
+                </div>
+                <div class="text-center mt-4">
+                    <a href="http://www.westal.net/sportsplex" target="_blank" class="btn btn-primary">Visit Official
+                        Site</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container text-center">
+            <p>&copy; 2026 Theo Ratliff Activity Center. Built for the Demopolis Community.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
